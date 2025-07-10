@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Header } from './Admin/Layout/Header';
 import { Sidebar } from './Admin/Layout/Sidebar';
 import { MainDashboard } from './Admin/Dashboard/MainDashboard';
-import { QuantumAnalytics } from './Admin/QuantumAnalytics'; // Pastikan ini di-import
+import QuantumAnalytics from './Admin/QuantumAnalytics'; // Pastikan ini di-import
 
 const EnhancedAdminDashboard: React.FC = () => {
   const [activeSection, setActiveSection] = useState('dashboard');
